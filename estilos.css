@@ -1,0 +1,92 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+} 
+ 
+.contenedor{ 
+    width: 75%; 
+    background-color: #E8F1F2; 
+    margin: 0 auto; 
+    display: grid;
+    grid-template-rows: auto 1fr auto auto; /* Agregamos una cuarta fila para el footer */
+} 
+ 
+header{ 
+    width: 100%; 
+    height: 500px; 
+    background: url('img/FONDO.jpg') BLACK; 
+    background-size: cover; 
+    background-position: center; 
+} 
+ 
+body{ 
+    font-family: 'Fira Sans Condensed', sans-serif; 
+} 
+ 
+main .perfil{ 
+    width: 150px; 
+    height: 150px; 
+    background-color: #E8F1F2; 
+    margin: -80px auto 50px auto; 
+ 
+    border: 8px solid #247BA0; 
+    border-radius: 50%; 
+} 
+ 
+ 
+main .perfil img{ 
+    width: 100%; 
+    border-radius: 50%; 
+} 
+ 
+/* TEXTO */ 
+ 
+main .texto{ 
+    width: 100%; 
+    height: 100%; /* Establecemos la altura al 100% de la segunda fila */
+    padding: 0px; 
+} 
+ 
+main .texto h2{ 
+    font-size: 45px; 
+    margin-bottom: 10px; 
+    padding: 20px; 
+    text-align: center; 
+} 
+ 
+main .texto h3{ 
+    font-size: 45px; 
+    margin-bottom: 10px; 
+    padding: 20px; 
+} 
+ 
+main .texto h4{ 
+    font-size: 45px; 
+    margin-bottom: 10px; 
+    padding: 20px; 
+} 
+ 
+main .texto h5{ 
+    font-size: 45px; 
+    margin-bottom: 10px; 
+    padding: 20px; 
+} 
+ 
+main .texto p{ 
+    font-size: 25px; 
+    font-weight: bold; 
+    text-align: 20px center 20px center; 
+    padding: 20px; 
+} 
+ 
+footer{ 
+    background: #13293D; 
+    padding: 25px;
+    grid-row: 4; /* Colocamos el footer en la cuarta fila */
+}
+
+footer p{ 
+    text-align: center; 
+    color: #E8F1F2; 
+}
